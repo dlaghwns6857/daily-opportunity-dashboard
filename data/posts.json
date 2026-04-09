@@ -1,0 +1,130 @@
+{
+  "updated_at": "2026-04-09T09:00:00",
+  "items": [
+    {
+      "id": "alio_001",
+      "category": "채용",
+      "subcategory": "체험형 인턴",
+      "title": "2026년 상반기 체험형 청년인턴 채용",
+      "org": "한국주택금융공사",
+      "deadline": "2026-04-14",
+      "url": "https://job.alio.go.kr/",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_002",
+      "category": "채용",
+      "subcategory": "신입",
+      "title": "2026년 일반직 신입 채용 공고",
+      "org": "한국전력공사",
+      "deadline": "2026-04-29",
+      "url": "https://job.alio.go.kr/",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_003",
+      "category": "채용",
+      "subcategory": "청년인턴",
+      "title": "2026년 금융공기업 청년인턴 모집",
+      "org": "IBK기업은행",
+      "deadline": "2026-04-16",
+      "url": "https://job.alio.go.kr/",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_004",
+      "category": "채용",
+      "subcategory": "신입",
+      "title": "2026년 디지털 부문 신입직원 채용",
+      "org": "한국자산관리공사",
+      "deadline": "2026-04-22",
+      "url": "https://job.alio.go.kr/",
+      "source": "잡알리오",
+      "region": "부산",
+      "is_new": false
+    },
+    {
+      "id": "alio_005",
+      "category": "채용",
+      "subcategory": "체험형 인턴",
+      "title": "2026년 지역인재 체험형 인턴 선발",
+      "org": "한국남부발전",
+      "deadline": "2026-04-11",
+      "url": "https://job.alio.go.kr/",
+      "source": "잡알리오",
+      "region": "부산",
+      "is_new": true
+    },
+    {
+      "id": "youth_001",
+      "category": "지원금",
+      "subcategory": "청년수당",
+      "title": "부산청년 도전지원사업",
+      "org": "부산광역시",
+      "deadline": "2026-04-18",
+      "url": "https://www.youthcenter.go.kr/",
+      "source": "온통청년",
+      "amount": "월 50만원 x 6개월",
+      "region": "부산",
+      "is_new": true
+    },
+    {
+      "id": "youth_002",
+      "category": "지원금",
+      "subcategory": "주거지원",
+      "title": "청년 월세 특별지원 2차 모집",
+      "org": "국토교통부",
+      "deadline": "2026-04-30",
+      "url": "https://www.youthcenter.go.kr/",
+      "source": "온통청년",
+      "amount": "월 최대 20만원 x 12개월",
+      "region": "전국",
+      "is_new": false
+    },
+    {
+      "id": "youth_003",
+      "category": "지원금",
+      "subcategory": "취업지원",
+      "title": "부산 청년 자격증 응시료 지원",
+      "org": "부산경제진흥원",
+      "deadline": "2026-04-12",
+      "url": "https://www.youthcenter.go.kr/",
+      "source": "온통청년",
+      "amount": "연 최대 10만원",
+      "region": "부산",
+      "is_new": true
+    },
+    {
+      "id": "youth_004",
+      "category": "지원금",
+      "subcategory": "생활지원",
+      "title": "청년내일저축계좌 신규 가입 안내",
+      "org": "보건복지부",
+      "deadline": "2026-04-25",
+      "url": "https://www.youthcenter.go.kr/",
+      "source": "온통청년",
+      "amount": "월 10만원 저축 시 정부지원금 매칭",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "youth_005",
+      "category": "지원금",
+      "subcategory": "창업지원",
+      "title": "부산 청년 로컬창업 지원금 모집",
+      "org": "부산창조경제혁신센터",
+      "deadline": "2026-04-15",
+      "url": "https://www.youthcenter.go.kr/",
+      "source": "온통청년",
+      "amount": "최대 1,500만원 사업화 자금",
+      "region": "부산",
+      "is_new": true
+    }
+  ]
+}

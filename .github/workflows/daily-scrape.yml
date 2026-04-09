@@ -1,0 +1,70 @@
+name: Daily Scrape
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 3.11 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 크롤러 의존성 설치
+        run: pip install -r scraper/requirements.txt
+
+      - name: 크롤러 실행
+        run: python scraper/main.py
+
+      - name: 수집 결과 확인
+        id: check_posts
+        shell: bash
+        run: |
+          item_count=$(python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('data/posts.json')
+          if not path.exists():
+              print(0)
+          else:
+              with path.open('r', encoding='utf-8') as file:
+                  data = json.load(file)
+              print(len(data.get('items', [])))
+          PY
+          )
+          echo "item_count=${item_count}" >> "$GITHUB_OUTPUT"
+
+      - name: Git 사용자 설정
+        if: steps.check_posts.outputs.item_count != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: 변경사항 커밋 및 푸시
+        if: steps.check_posts.outputs.item_count != '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TZ: Asia/Seoul
+        shell: bash
+        run: |
+          if git diff --quiet -- data/posts.json; then
+            echo "변경된 posts.json이 없어 커밋을 건너뜁니다."
+            exit 0
+          fi
+
+          commit_date=$(date +'%Y-%m-%d')
+          git add data/posts.json
+          git commit -m "자동 업데이트: ${commit_date}"
+          git push
