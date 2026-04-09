@@ -19,10 +19,17 @@ type DashboardItem = {
 
 type DashboardData = {
   updated_at: string;
+  failed_sources?: FailedSourceLink[];
   items: DashboardItem[];
 };
 
 type FilterTab = "전체" | "채용" | "인턴" | "지원금";
+
+type FailedSourceLink = {
+  name: string;
+  reason: string;
+  url: string;
+};
 
 const dashboardData = postsData as DashboardData;
 
@@ -73,21 +80,38 @@ function getCardTone(item: DashboardItem) {
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<FilterTab>("전체");
+  const [searchQuery, setSearchQuery] = useState("");
+  const failedSourceLinks = dashboardData.failed_sources ?? [];
 
   const filteredItems = useMemo(() => {
-    switch (activeTab) {
-      case "채용":
-        return dashboardData.items.filter(
-          (item) => item.category === "채용" && !item.subcategory.includes("인턴")
-        );
-      case "인턴":
-        return dashboardData.items.filter((item) => item.subcategory.includes("인턴"));
-      case "지원금":
-        return dashboardData.items.filter((item) => item.category === "지원금");
-      default:
-        return dashboardData.items;
+    const normalizedQuery = searchQuery.trim().toLowerCase();
+
+    const tabFilteredItems = (() => {
+      switch (activeTab) {
+        case "채용":
+          return dashboardData.items.filter(
+            (item) => item.category === "채용" && item.subcategory !== "인턴"
+          );
+        case "인턴":
+          return dashboardData.items.filter((item) => item.subcategory === "인턴");
+        case "지원금":
+          return dashboardData.items.filter((item) => item.category === "지원금");
+        default:
+          return dashboardData.items;
+      }
+    })();
+
+    if (!normalizedQuery) {
+      return tabFilteredItems;
     }
-  }, [activeTab]);
+
+    return tabFilteredItems.filter((item) => {
+      const title = item.title.toLowerCase();
+      const org = item.org.toLowerCase();
+
+      return title.includes(normalizedQuery) || org.includes(normalizedQuery);
+    });
+  }, [activeTab, searchQuery]);
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 py-6 sm:px-6 lg:px-8">
@@ -137,6 +161,20 @@ export default function HomePage() {
                 </button>
               );
             })}
+          </div>
+
+          <div className="max-w-xl">
+            <label className="sr-only" htmlFor="dashboard-search">
+              공고명, 기관명 검색
+            </label>
+            <input
+              id="dashboard-search"
+              type="search"
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
+              placeholder="공고명, 기관명 검색..."
+              className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-slate-400 focus:ring-4 focus:ring-slate-200/70 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:border-slate-600 dark:focus:ring-slate-800"
+            />
           </div>
         </div>
       </section>
@@ -204,6 +242,45 @@ export default function HomePage() {
           );
         })}
       </section>
+
+      {failedSourceLinks.length > 0 ? (
+        <section className="mt-8 rounded-[28px] border border-amber-200 bg-amber-50/80 p-5 shadow-sm backdrop-blur-xl dark:border-amber-500/20 dark:bg-amber-500/10 sm:p-8">
+          <div className="flex flex-col gap-4">
+            <div className="space-y-2">
+              <span className="inline-flex w-fit items-center rounded-full bg-amber-600 px-3 py-1 text-xs font-semibold text-white dark:bg-amber-400 dark:text-slate-950">
+                점검 필요 Source
+              </span>
+              <h2 className="font-[var(--font-manrope)] text-2xl font-extrabold tracking-tight text-slate-900 dark:text-slate-50">
+                실패 항목 원문 링크
+              </h2>
+              <p className="text-sm leading-6 text-slate-700 dark:text-slate-300">
+                최근 실행에서 비어 있거나 실패한 사이트는 원문 페이지를 바로 열 수 있게 표시합니다.
+              </p>
+            </div>
+
+            <div className="grid gap-3 md:grid-cols-2">
+              {failedSourceLinks.map((source) => (
+                <a
+                  key={source.name}
+                  href={source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-[20px] border border-amber-200 bg-white/90 p-4 transition hover:-translate-y-0.5 hover:shadow-md dark:border-amber-500/20 dark:bg-slate-950/70"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <h3 className="text-base font-bold text-slate-900 dark:text-slate-100">{source.name}</h3>
+                    <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-700 dark:bg-amber-500/15 dark:text-amber-300">
+                      바로가기
+                    </span>
+                  </div>
+                  <p className="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">{source.reason}</p>
+                  <p className="mt-3 text-xs font-medium text-slate-500 dark:text-slate-400">{source.url}</p>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
     </main>
   );
 }
