@@ -39,6 +39,19 @@ def load_existing_ids() -> set[str]:
     return {item.get("id", "") for item in items if isinstance(item, dict) and item.get("id")}
 
 
+def load_existing_items() -> list[dict[str, object]]:
+    if not DATA_PATH.exists():
+        return []
+    try:
+        with DATA_PATH.open("r", encoding="utf-8") as file:
+            data = json.load(file)
+    except (OSError, json.JSONDecodeError):
+        return []
+
+    items = data.get("items", [])
+    return [item for item in items if isinstance(item, dict)]
+
+
 def dedupe_and_mark(items: list[dict[str, object]], existing_ids: set[str]) -> list[dict[str, object]]:
     deduped: list[dict[str, object]] = []
     seen_ids: set[str] = set()
@@ -74,6 +87,7 @@ def write_posts(items: list[dict[str, object]]) -> None:
 
 def main() -> None:
     existing_ids = load_existing_ids()
+    existing_items = load_existing_items()
     session = build_session()
     collected: list[dict[str, object]] = []
 
@@ -86,6 +100,13 @@ def main() -> None:
             print(f"{label}: 실패 ({error})")
 
     final_items = dedupe_and_mark(collected, existing_ids)
+    if not final_items:
+        if existing_items:
+            print("완료: 총 0개 항목 수집 (기존 데이터 유지)")
+            return
+        print("완료: 총 0개 항목 수집")
+        return
+
     write_posts(final_items)
     print(f"완료: 총 {len(final_items)}개 항목 수집")
 

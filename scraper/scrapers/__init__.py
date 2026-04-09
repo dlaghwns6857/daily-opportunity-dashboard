@@ -47,7 +47,28 @@ def fetch_soup(
         timeout=DEFAULT_TIMEOUT,
     )
     response.raise_for_status()
+    response.encoding = response.apparent_encoding or response.encoding
     return BeautifulSoup(response.text, "html.parser")
+
+
+def fetch_text(
+    session: requests.Session,
+    url: str,
+    *,
+    params: dict[str, object] | None = None,
+    data: dict[str, object] | None = None,
+    method: str = "GET",
+) -> str:
+    response = session.request(
+        method=method,
+        url=url,
+        params=params,
+        data=data,
+        timeout=DEFAULT_TIMEOUT,
+    )
+    response.raise_for_status()
+    response.encoding = response.apparent_encoding or response.encoding
+    return response.text
 
 
 def normalize_text(value: str | None) -> str:
