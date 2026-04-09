@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T20:40:43",
+  "updated_at": "2026-04-09T11:44:15",
   "items": [
     {
       "id": "jobkorea_f8aa14ead5",
@@ -11,7 +11,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48948440?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_9a08c2a58f",
@@ -23,7 +23,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48755412?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=13&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_9b3e0db52e",
@@ -35,7 +35,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48815200?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_8d583a3e6c",
@@ -47,19 +47,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48890311?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "jobkorea_17364f408c",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "품격있는 자산관리사를 채용합니다.",
-      "org": "아인즈랩",
-      "deadline": "2026-04-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48696984?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=551",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_e1acb4ddbf",
@@ -68,7 +56,19 @@
       "title": "[토스인슈어런스] IA모집 영업직 / 관리직 (신입/경력)",
       "org": "토스인슈어런스㈜",
       "deadline": "2026-04-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48614136?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48614136?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=551",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": false
+    },
+    {
+      "id": "jobkorea_6e07083aef",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "FY2026 GEM 공개채용 - IT/Digital",
+      "org": "한국투자증권(주)",
+      "deadline": "2026-04-22",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910208?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=16&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": true
@@ -83,7 +83,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910141?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=11&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_d6fd8955b7",
@@ -95,7 +95,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910185?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=10&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_9e1cea4529",
@@ -107,7 +107,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910169?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=12&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_e38199fdbf",
@@ -119,7 +119,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910564?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=14&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_bd8aa0c88b",
@@ -131,7 +131,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910476?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=6&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_b884b8ef79",
@@ -143,7 +143,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910535?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=4&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_240b94b404",
@@ -155,7 +155,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910506?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_0775cc30c5",
@@ -167,7 +167,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910378?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=15&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_b2b14b8134",
@@ -179,7 +179,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910296?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=9&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_b1fe74b885",
@@ -191,7 +191,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910345?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=7&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_077e17a51e",
@@ -203,7 +203,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910329?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=8&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_88908ed37c",
@@ -215,7 +215,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48900847?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_0db7a976ad",
@@ -227,7 +227,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48816087?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_5fda74e156",
@@ -236,10 +236,10 @@
       "title": "[청개구리투자클럽] 주식 TM영업 프로매니저 역삼점 공개채용",
       "org": "㈜에프에스씨(FSC)",
       "deadline": "2026-05-29",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48873548?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=4&sc=552",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48873548?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     }
   ]
 }
