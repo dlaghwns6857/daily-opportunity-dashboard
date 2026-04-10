@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-09T22:39:36",
+  "updated_at": "2026-04-10T01:29:35",
   "failed_sources": [
     {
       "name": "워크넷",
@@ -9,7 +9,12 @@
     {
       "name": "금융위원회",
       "url": "https://www.fsc.go.kr",
-      "reason": "수집 실패: ('Connection aborted.', ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None))"
+      "reason": "수집 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    },
+    {
+      "name": "복지로",
+      "url": "https://www.bokjiro.go.kr",
+      "reason": "수집 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "name": "부산청년포털",
@@ -19,88 +24,28 @@
   ],
   "items": [
     {
-      "id": "alio_3010b499de",
+      "id": "alio_77670d9195",
       "category": "채용",
       "subcategory": "채용",
-      "title": "경제인문사회연구회",
-      "org": "세종",
-      "deadline": "2026-04-09",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299087",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "alio_d0a8f0fbe3",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "국립공원공단",
-      "org": "경북",
-      "deadline": "2026-04-09",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299050",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "alio_0598b9978c",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "정보통신정책연구원",
-      "org": "충북",
-      "deadline": "2026-04-09",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299041",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "alio_39afb6e17d",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한국발명진흥회",
-      "org": "서울 외 1",
-      "deadline": "2026-04-09",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299049",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "alio_4eea0867f8",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한국전력기술주식회사",
-      "org": "경북",
-      "deadline": "2026-04-09",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299048",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "alio_f88d737322",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한전KPS(주)",
-      "org": "전남",
-      "deadline": "2026-04-09",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299047",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "jobkorea_9a08c2a58f",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "[광화문/6M] 스위스계 유명 재보험사 Intern",
-      "org": "(주)맨파워코리아",
+      "title": "동남권원자력의학원",
+      "org": "부산",
       "deadline": "2026-04-10",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48755412?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=13&sc=630",
-      "source": "잡코리아",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299071",
+      "source": "잡알리오",
+      "region": "부산",
+      "is_new": true
+    },
+    {
+      "id": "alio_278f61c93c",
+      "category": "채용",
+      "subcategory": "신입",
+      "title": "분당서울대학교병원",
+      "org": "경기",
+      "deadline": "2026-04-10",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299039",
+      "source": "잡알리오",
       "region": "전국",
-      "is_new": false
+      "is_new": true
     },
     {
       "id": "jobkorea_9b3e0db52e",
@@ -115,6 +60,30 @@
       "is_new": false
     },
     {
+      "id": "alio_e47b4b7d8e",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "학교법인한국폴리텍",
+      "org": "충북",
+      "deadline": "2026-04-10",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299074",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_e525569010",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "한전KDN",
+      "org": "강원",
+      "deadline": "2026-04-10",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299051",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "jobkorea_8d583a3e6c",
       "category": "채용",
       "subcategory": "체험형 인턴",
@@ -127,28 +96,16 @@
       "is_new": false
     },
     {
-      "id": "jobkorea_69c903368b",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "(주)한화손해보험 신입 경력 고객관리업무 채용",
-      "org": "한화손해보험㈜",
-      "deadline": "2026-04-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48815818?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=551",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": false
-    },
-    {
       "id": "jobkorea_17364f408c",
       "category": "채용",
       "subcategory": "인턴",
       "title": "품격있는 자산관리사를 채용합니다.",
       "org": "아인즈랩",
       "deadline": "2026-04-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48696984?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=4&sc=552",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48696984?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=551",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "youthdb_36b926f447",
@@ -169,19 +126,7 @@
       "title": "[토스인슈어런스] IA모집 영업직 / 관리직 (신입/경력)",
       "org": "토스인슈어런스㈜",
       "deadline": "2026-04-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48614136?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "jobkorea_6e07083aef",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "FY2026 GEM 공개채용 - IT/Digital",
-      "org": "한국투자증권(주)",
-      "deadline": "2026-04-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910208?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=16&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48614136?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=551",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -217,7 +162,7 @@
       "title": "FY2026 GEM 공개채용 - 운용",
       "org": "한국투자증권(주)",
       "deadline": "2026-04-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910169?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=12&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910169?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=13&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -319,6 +264,30 @@
       "is_new": false
     },
     {
+      "id": "jobkorea_09587b541b",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "[산은인베스트먼트] Private Equity 운용역(인턴) 채용",
+      "org": "산은인베스트먼트㈜",
+      "deadline": "2026-04-22",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48950612?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=12&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "jobkorea_88908ed37c",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "[신입/경력 설계사] 매월 80-100건 실시간 상담 DB 무료 제공",
+      "org": "㈜미래전략금융서비스",
+      "deadline": "2026-05-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48900847?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=552",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "jobkorea_0db7a976ad",
       "category": "채용",
       "subcategory": "인턴",
@@ -331,28 +300,40 @@
       "is_new": false
     },
     {
+      "id": "jobkorea_5fda74e156",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "[청개구리투자클럽] 주식 TM영업 프로매니저 역삼점 공개채용",
+      "org": "㈜에프에스씨(FSC)",
+      "deadline": "2026-05-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48873548?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=551",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "jobkorea_12e9df2e55",
       "category": "채용",
       "subcategory": "인턴",
       "title": "[청개구리투자클럽] 주식 TM영업 프로매니저 순천점 공개채용",
       "org": "㈜에프에스씨(FSC)",
       "deadline": "2026-05-31",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48895557?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=551",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48895557?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=4&sc=552",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
     },
     {
-      "id": "youth_ebde99b0ba",
+      "id": "youth_0e5621c6b8",
       "category": "지원금",
-      "subcategory": "취업지원",
-      "title": "광주청년센터 토닥토닥(상무점) 면접정장 대여 서비스",
-      "org": "광주시청",
-      "deadline": "2026-12-31",
-      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260408005400212616",
+      "subcategory": "주거지원",
+      "title": "전세보증금 반환보증 보증료 지원",
+      "org": "국토교통부",
+      "deadline": "2026-07-05",
+      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260410005400212668",
       "source": "온통청년",
       "region": "전국",
-      "is_new": false
+      "is_new": true
     },
     {
       "id": "youth_a43831bba5",
@@ -378,18 +359,6 @@
       "region": "전국",
       "amount": "월10만원",
       "is_new": false
-    },
-    {
-      "id": "bokjiro_7e5121c365",
-      "category": "지원금",
-      "subcategory": "지원사업",
-      "title": "안부살핌 우편서비스 사업",
-      "org": "행정안전부 복지자원연계팀",
-      "deadline": "2026-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006237",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
     },
     {
       "id": "youth_beee9e84e3",
@@ -839,222 +808,6 @@
       "region": "전국",
       "amount": "월 최대 110만원",
       "is_new": false
-    },
-    {
-      "id": "bokjiro_8bc7abaa0d",
-      "category": "지원금",
-      "subcategory": "지원사업",
-      "title": "공공산림가꾸기",
-      "org": "산림청 산림자원과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001149",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_05bea07b79",
-      "category": "지원금",
-      "subcategory": "취업지원",
-      "title": "국민취업지원제도",
-      "org": "고용노동부 국민취업지원기획팀",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003245",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_16409b3aa2",
-      "category": "지원금",
-      "subcategory": "주거지원",
-      "title": "기존주택등 매입임대주택 지원사업",
-      "org": "국토교통부 주거복지지원과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000062",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_a55ac4582a",
-      "category": "지원금",
-      "subcategory": "생활지원",
-      "title": "대학생 근로장학금 지원",
-      "org": "교육부 청년장학지원과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001060",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_ff73c76181",
-      "category": "지원금",
-      "subcategory": "지원사업",
-      "title": "부산청년 신용회복지원 사업",
-      "org": "부산광역시 디지털경제혁신실 청년산학국 청년희망정책과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005145",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_2076872f5a",
-      "category": "지원금",
-      "subcategory": "지원사업",
-      "title": "부산청년 자산형성지원 사업",
-      "org": "부산광역시 청년산학국 청년정책과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005143",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_55daea4177",
-      "category": "지원금",
-      "subcategory": "취업지원",
-      "title": "서민금융 활성화 지원(햇살론youth 보증사업)",
-      "org": "금융위원회 서민금융과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001076",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_0a67fc3181",
-      "category": "지원금",
-      "subcategory": "생활지원",
-      "title": "예술활동준비금 지원",
-      "org": "문화체육관광부 예술인권리보호과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003199",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_02aafd1b97",
-      "category": "지원금",
-      "subcategory": "생활지원",
-      "title": "자립준비청년 자립수당 지급",
-      "org": "보건복지부 청년정책팀",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001175",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_7a9a6e7196",
-      "category": "지원금",
-      "subcategory": "생활지원",
-      "title": "자립준비청년(보호종료아동) 자립정착금 지원",
-      "org": "보건복지부 청년정책팀",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005445",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_eb5e6c1f08",
-      "category": "지원금",
-      "subcategory": "주거지원",
-      "title": "주거안정 월세대출",
-      "org": "국토교통부 주택기금과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001063",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_d6591ff4a5",
-      "category": "지원금",
-      "subcategory": "생활지원",
-      "title": "청년내일저축계좌",
-      "org": "보건복지부 자활정책과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000060",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_aa9eedf6a3",
-      "category": "지원금",
-      "subcategory": "취업지원",
-      "title": "청년내일채움공제",
-      "org": "고용노동부 청년취업지원과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006215",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_4b463955b6",
-      "category": "지원금",
-      "subcategory": "주거지원",
-      "title": "청년월세 지원사업",
-      "org": "국토교통부 청년주거정책과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004661",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_fe4b0f45a5",
-      "category": "지원금",
-      "subcategory": "창업지원",
-      "title": "청년창업농장학금 지원",
-      "org": "농림축산식품부 농촌사회서비스과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000812",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_37361cc546",
-      "category": "지원금",
-      "subcategory": "취업지원",
-      "title": "취업 후 상환 학자금대출",
-      "org": "교육부 청년장학지원과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003277",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_232713fb2c",
-      "category": "지원금",
-      "subcategory": "주거지원",
-      "title": "통합공공임대",
-      "org": "국토교통부 공공주택정책과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004663",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "bokjiro_ee6a902e8e",
-      "category": "지원금",
-      "subcategory": "주거지원",
-      "title": "행복주택 공급",
-      "org": "국토교통부 공공주택정책과",
-      "deadline": "2099-12-31",
-      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004649",
-      "source": "복지로",
-      "region": "부산",
-      "is_new": true
     }
   ]
 }
