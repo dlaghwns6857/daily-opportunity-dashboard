@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T01:23:40",
+  "updated_at": "2026-04-12T01:46:47",
   "failed_sources": [
     {
       "name": "잡알리오",
@@ -41,18 +41,6 @@
       "is_new": false
     },
     {
-      "id": "jobkorea_17364f408c",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "품격있는 자산관리사를 채용합니다.",
-      "org": "아인즈랩",
-      "deadline": "2026-04-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48696984?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": false
-    },
-    {
       "id": "youthdb_36b926f447",
       "category": "채용",
       "subcategory": "인턴",
@@ -74,18 +62,6 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48874244?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=16&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "jobkorea_e1acb4ddbf",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "[토스인슈어런스] IA모집 영업직 / 관리직 (신입/경력)",
-      "org": "토스인슈어런스㈜",
-      "deadline": "2026-04-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48614136?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=551",
-      "source": "잡코리아",
-      "region": "전국",
       "is_new": false
     },
     {
@@ -98,7 +74,7 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910208?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=14&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_9cebfcf112",
@@ -173,6 +149,18 @@
       "is_new": false
     },
     {
+      "id": "jobkorea_6611ccd2e4",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "FY2026 국내대 채용연계형 인턴 공개채용 - 본사영업",
+      "org": "한국투자증권(주)",
+      "deadline": "2026-04-22",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910493?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=17&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "jobkorea_240b94b404",
       "category": "채용",
       "subcategory": "인턴",
@@ -221,6 +209,18 @@
       "is_new": false
     },
     {
+      "id": "jobkorea_90def7cc1a",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "FY2026 해외대 채용연계형 인턴 공개채용 - 본사영업",
+      "org": "한국투자증권(주)",
+      "deadline": "2026-04-22",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910312?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=18&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "jobkorea_077e17a51e",
       "category": "채용",
       "subcategory": "인턴",
@@ -233,16 +233,16 @@
       "is_new": false
     },
     {
-      "id": "jobkorea_88908ed37c",
+      "id": "jobkorea_0767dc647e",
       "category": "채용",
       "subcategory": "인턴",
-      "title": "[신입/경력 설계사] 매월 80-100건 실시간 상담 DB 무료 제공",
-      "org": "㈜미래전략금융서비스",
-      "deadline": "2026-05-02",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48900847?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=552",
+      "title": "[기본급/인센] 보험영업직 채용 (영업이 두려워도 걱정하지마세요)",
+      "org": "프라임에셋㈜",
+      "deadline": "2026-04-24",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48882361?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": false
+      "is_new": true
     },
     {
       "id": "jobkorea_0db7a976ad",
@@ -257,28 +257,28 @@
       "is_new": false
     },
     {
-      "id": "jobkorea_5fda74e156",
+      "id": "jobkorea_9fe3aed7b0",
       "category": "채용",
       "subcategory": "인턴",
-      "title": "[청개구리투자클럽] 주식 TM영업 프로매니저 역삼점 공개채용",
-      "org": "㈜에프에스씨(FSC)",
-      "deadline": "2026-05-29",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48873548?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=551",
+      "title": "[렌타나]자산(채권)관리 신입/경력 채용",
+      "org": "렌타나",
+      "deadline": "2026-05-31",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48891441?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": false
+      "is_new": true
     },
     {
-      "id": "jobkorea_12e9df2e55",
+      "id": "jobkorea_e545b10bee",
       "category": "채용",
       "subcategory": "인턴",
-      "title": "[청개구리투자클럽] 주식 TM영업 프로매니저 순천점 공개채용",
-      "org": "㈜에프에스씨(FSC)",
-      "deadline": "2026-05-31",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48895557?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=551",
+      "title": "[고객관리 영업사원 본사직영] 신입 및 경력사원 / 대면영업&복합채널 보험설계사 채용",
+      "org": "㈜미래전략금융서비스",
+      "deadline": "2026-06-09",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48956837?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=552",
       "source": "잡코리아",
-      "region": "전국",
-      "is_new": false
+      "region": "부산",
+      "is_new": true
     },
     {
       "id": "youth_0e5621c6b8",
@@ -667,7 +667,7 @@
       "source": "온통청년",
       "region": "전국",
       "amount": "월 37만원",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "youth_0a40264257",
