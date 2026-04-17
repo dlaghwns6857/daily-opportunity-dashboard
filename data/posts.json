@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T01:51:15",
+  "updated_at": "2026-04-17T01:46:44",
   "failed_sources": [
     {
       "name": "워크넷",
@@ -9,7 +9,7 @@
     {
       "name": "잡코리아",
       "url": "https://www.jobkorea.co.kr",
-      "reason": "수집 실패: HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Max retries exceeded with url: /Search/?stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&ctcd=I210 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jobkorea.co.kr', port=443) at 0x7f80f5175ed0>, 'Connection to www.jobkorea.co.kr timed out. (connect timeout=20)'))"
+      "reason": "수집 실패: HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Max retries exceeded with url: /Search/?stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&ctcd=I210 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jobkorea.co.kr', port=443) at 0x7f5c01aeed90>, 'Connection to www.jobkorea.co.kr timed out. (connect timeout=20)'))"
     },
     {
       "name": "금융위원회",
@@ -24,90 +24,66 @@
     {
       "name": "부산청년포털",
       "url": "https://youth.busan.go.kr",
-      "reason": "수집 실패: HTTPSConnectionPool(host='youth.busan.go.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='youth.busan.go.kr', port=443) at 0x7f80f4147090>, 'Connection to youth.busan.go.kr timed out. (connect timeout=20)'))"
+      "reason": "수집 실패: HTTPSConnectionPool(host='youth.busan.go.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='youth.busan.go.kr', port=443) at 0x7f5c00be5f90>, 'Connection to youth.busan.go.kr timed out. (connect timeout=20)'))"
     }
   ],
   "items": [
     {
-      "id": "alio_edd18cb922",
+      "id": "alio_dc07f0b253",
       "category": "채용",
       "subcategory": "채용",
-      "title": "경북대학교병원",
-      "org": "대구",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299364",
+      "title": "경상국립대학교병원",
+      "org": "경남",
+      "deadline": "2026-04-17",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299420",
       "source": "잡알리오",
       "region": "전국",
       "is_new": true
     },
     {
-      "id": "alio_cb44a22632",
+      "id": "alio_a0e4dca602",
       "category": "채용",
       "subcategory": "채용",
-      "title": "부산대학교병원",
-      "org": "부산 외 1",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299350",
-      "source": "잡알리오",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "alio_0598b9978c",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "정보통신정책연구원",
-      "org": "충북",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299379",
+      "title": "국립광주과학관",
+      "org": "광주",
+      "deadline": "2026-04-17",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299446",
       "source": "잡알리오",
       "region": "전국",
       "is_new": true
     },
     {
-      "id": "alio_2bfc6e56b0",
+      "id": "alio_878e5653bf",
       "category": "채용",
-      "subcategory": "채용",
-      "title": "한국수력원자력(주)",
-      "org": "경기",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299284",
+      "subcategory": "신입",
+      "title": "재단법인 건설기술교육원",
+      "org": "서울 외 1",
+      "deadline": "2026-04-17",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299421",
       "source": "잡알리오",
       "region": "전국",
       "is_new": true
     },
     {
-      "id": "alio_743ba867d5",
+      "id": "alio_e47b4b7d8e",
       "category": "채용",
-      "subcategory": "채용",
-      "title": "한국전기안전공사",
-      "org": "광주 외 1",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299375",
+      "subcategory": "체험형 인턴",
+      "title": "학교법인한국폴리텍",
+      "org": "전북",
+      "deadline": "2026-04-17",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299378",
       "source": "잡알리오",
       "region": "전국",
       "is_new": true
     },
     {
-      "id": "alio_280016986d",
+      "id": "alio_6018513188",
       "category": "채용",
-      "subcategory": "채용",
-      "title": "한국토지주택공사",
-      "org": "서울",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299354",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "alio_e525569010",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한전KDN",
-      "org": "강원",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299335",
+      "subcategory": "체험형 인턴",
+      "title": "한국교통연구원",
+      "org": "세종",
+      "deadline": "2026-04-17",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299414",
       "source": "잡알리오",
       "region": "전국",
       "is_new": true
@@ -117,24 +93,12 @@
       "category": "채용",
       "subcategory": "채용",
       "title": "한전KPS(주)",
-      "org": "서울",
-      "deadline": "2026-04-16",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299376",
+      "org": "경북",
+      "deadline": "2026-04-17",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299383",
       "source": "잡알리오",
       "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "youthdb_d481647838",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "2026년 2차 조달청 청년인턴 채용공고",
-      "org": "조달청",
-      "deadline": "2026-04-27",
-      "url": "https://www.2030db.go.kr/user/youthIntern/selectYouthInternDetail.do?youthId=INTERN_0000000031421",
-      "source": "청년인재DB",
-      "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "youthdb_eefd24f330",
@@ -146,7 +110,7 @@
       "url": "https://www.2030db.go.kr/user/youthIntern/selectYouthInternDetail.do?youthId=INTERN_0000000031296",
       "source": "청년인재DB",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "youth_0e5621c6b8",
@@ -425,7 +389,7 @@
       "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260413005400212723",
       "source": "온통청년",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "youth_7fa9122de5",
@@ -559,7 +523,7 @@
       "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260416005400212752",
       "source": "온통청년",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "youth_2b4654bac7",
@@ -595,7 +559,7 @@
       "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260415005400212746",
       "source": "온통청년",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "youth_c3e9c4a960",
