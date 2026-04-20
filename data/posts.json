@@ -1,11 +1,6 @@
 {
-  "updated_at": "2026-04-19T01:50:14",
+  "updated_at": "2026-04-20T01:52:09",
   "failed_sources": [
-    {
-      "name": "잡알리오",
-      "url": "https://job.alio.go.kr",
-      "reason": "0건 수집"
-    },
     {
       "name": "워크넷",
       "url": "https://www.work.go.kr",
@@ -17,6 +12,11 @@
       "reason": "수집 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
+      "name": "청년인재DB",
+      "url": "https://www.2030db.go.kr/user/youthIntern/selectYouthInternList.do",
+      "reason": "0건 수집"
+    },
+    {
       "name": "복지로",
       "url": "https://www.bokjiro.go.kr",
       "reason": "수집 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
@@ -24,10 +24,118 @@
     {
       "name": "부산청년포털",
       "url": "https://youth.busan.go.kr",
-      "reason": "수집 실패: HTTPSConnectionPool(host='youth.busan.go.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='youth.busan.go.kr', port=443) at 0x7f61b43a0b90>, 'Connection to youth.busan.go.kr timed out. (connect timeout=20)'))"
+      "reason": "수집 실패: HTTPSConnectionPool(host='youth.busan.go.kr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='youth.busan.go.kr', port=443) at 0x7ffa813e1310>, 'Connection to youth.busan.go.kr timed out. (connect timeout=20)'))"
     }
   ],
   "items": [
+    {
+      "id": "alio_d0a8f0fbe3",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "국립공원공단",
+      "org": "전북",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299506",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_eec930b23a",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "국립생태원",
+      "org": "충남",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299490",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_34da98ef28",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "정보통신기획평가원",
+      "org": "서울 외 1",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299489",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_438bf76fff",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "한국도로교통공단",
+      "org": "서울 외 15",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299480",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_2bfc6e56b0",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "한국수력원자력(주)",
+      "org": "울산",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299443",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_337a5ae28e",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "한국임업진흥원",
+      "org": "서울 외 2",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299486",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_280016986d",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "한국토지주택공사",
+      "org": "대전 외 1",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299439",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_d6b2cd9c0c",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "한국환경연구원",
+      "org": "세종",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299372",
+      "source": "잡알리오",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "alio_e525569010",
+      "category": "채용",
+      "subcategory": "채용",
+      "title": "한전KDN",
+      "org": "부산",
+      "deadline": "2026-04-20",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299492",
+      "source": "잡알리오",
+      "region": "부산",
+      "is_new": true
+    },
     {
       "id": "jobkorea_6e07083aef",
       "category": "채용",
@@ -71,10 +179,10 @@
       "title": "FY2026 GEM 공개채용 - 본사영업",
       "org": "한국투자증권(주)",
       "deadline": "2026-04-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910159?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=20&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910159?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=19&sc=630",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_9e1cea4529",
@@ -125,13 +233,25 @@
       "is_new": false
     },
     {
+      "id": "jobkorea_629d4bd0d8",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "FY2026 국내대 채용연계형 인턴 공개채용 - 본사관리",
+      "org": "한국투자증권(주)",
+      "deadline": "2026-04-22",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910549?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=20&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "jobkorea_6611ccd2e4",
       "category": "채용",
       "subcategory": "인턴",
       "title": "FY2026 국내대 채용연계형 인턴 공개채용 - 본사영업",
       "org": "한국투자증권(주)",
       "deadline": "2026-04-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910493?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=18&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910493?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=17&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -191,7 +311,7 @@
       "title": "FY2026 해외대 채용연계형 인턴 공개채용 - 본사영업",
       "org": "한국투자증권(주)",
       "deadline": "2026-04-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910312?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=19&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910312?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=18&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -221,40 +341,16 @@
       "is_new": false
     },
     {
-      "id": "youthdb_eefd24f330",
+      "id": "jobkorea_c5da0608c2",
       "category": "채용",
       "subcategory": "인턴",
-      "title": "2026년 2차 남해지방해양경찰청 청년인턴 채용 공고",
-      "org": "해양경찰청",
-      "deadline": "2026-04-29",
-      "url": "https://www.2030db.go.kr/user/youthIntern/selectYouthInternDetail.do?youthId=INTERN_0000000031296",
-      "source": "청년인재DB",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "jobkorea_d5fa622e35",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "굿리치 재무사업부 HIGH본부 교육매니저 채용",
-      "org": "굿리치㈜",
-      "deadline": "2026-05-10",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48959806?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=552",
+      "title": "투잡가능, 초보가능, 자유로운 출퇴근 브리핑 강사 채용",
+      "org": "한국중대재해예방협회",
+      "deadline": "2026-04-30",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48763945?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "jobkorea_72d6e57819",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "[토스인슈어런스] 토스앱 인입 영업직 (신입/경력)",
-      "org": "토스인슈어런스㈜",
-      "deadline": "2026-05-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48783256?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": false
+      "is_new": true
     },
     {
       "id": "jobkorea_0db7a976ad",
@@ -269,13 +365,25 @@
       "is_new": false
     },
     {
+      "id": "jobkorea_ff92f8c133",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "자동차 손해사정 업무 담당자를 채용합니다.(정비자격증 보유자 우대)",
+      "org": "㈜오토젠스 손해사정",
+      "deadline": "2026-05-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48980434?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=552",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "youth_0e5621c6b8",
       "category": "지원금",
       "subcategory": "주거지원",
       "title": "전세보증금 반환보증 보증료 지원",
       "org": "국토교통부",
       "deadline": "2026-07-05",
-      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260413005400212694",
+      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260410005400212668",
       "source": "온통청년",
       "region": "전국",
       "is_new": false
