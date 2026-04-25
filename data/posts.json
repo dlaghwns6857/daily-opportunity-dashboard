@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T01:50:15",
+  "updated_at": "2026-04-25T01:28:55",
   "failed_sources": [
     {
       "name": "워크넷",
@@ -24,100 +24,16 @@
   ],
   "items": [
     {
-      "id": "alio_9c252bcd8a",
+      "id": "alio_d0a8f0fbe3",
       "category": "채용",
-      "subcategory": "체험형 인턴",
-      "title": "독립기념관",
-      "org": "충남 외 1",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299743",
+      "subcategory": "채용",
+      "title": "국립공원공단",
+      "org": "서울 외 1",
+      "deadline": "2026-04-25",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=299798",
       "source": "잡알리오",
       "region": "전국",
       "is_new": true
-    },
-    {
-      "id": "alio_a9f598a846",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "시청자미디어재단",
-      "org": "서울 외 7",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299625",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "alio_c86c7dfaa4",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한국농어촌공사",
-      "org": "대구",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299746",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "alio_9bc1855faa",
-      "category": "채용",
-      "subcategory": "체험형 인턴",
-      "title": "한국보훈복지의료공단",
-      "org": "부산",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299691",
-      "source": "잡알리오",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "alio_1b5c43a2c3",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한국산업인력공단",
-      "org": "인천",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299695",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "alio_14c53c92c3",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한국장애인개발원",
-      "org": "경북",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299742",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "alio_a129e792b7",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한국철도공사",
-      "org": "서울",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299739",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "alio_f88d737322",
-      "category": "채용",
-      "subcategory": "채용",
-      "title": "한전KPS(주)",
-      "org": "울산",
-      "deadline": "2026-04-24",
-      "url": "https://job.alio.go.kr/recruitview.do?idx=299701",
-      "source": "잡알리오",
-      "region": "전국",
-      "is_new": false
     },
     {
       "id": "youthdb_a594840d0c",
@@ -132,13 +48,61 @@
       "is_new": false
     },
     {
+      "id": "jobkorea_e5d108101c",
+      "category": "채용",
+      "subcategory": "체험형 인턴",
+      "title": "[동해병원] 청년(체험형)인턴 채용",
+      "org": "근로복지공단",
+      "deadline": "2026-04-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49040765?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=13&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "jobkorea_175671cc2b",
+      "category": "채용",
+      "subcategory": "체험형 인턴",
+      "title": "[순천병원] 청년(체험형)인턴 채용",
+      "org": "근로복지공단",
+      "deadline": "2026-04-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49041274?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=11&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "jobkorea_5529158399",
+      "category": "채용",
+      "subcategory": "체험형 인턴",
+      "title": "[안산병원] 청년(체험형)인턴 채용",
+      "org": "근로복지공단",
+      "deadline": "2026-04-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49041559?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=12&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "jobkorea_4e80ee9882",
+      "category": "채용",
+      "subcategory": "체험형 인턴",
+      "title": "[인천병원] 청년(체험형)인턴 채용",
+      "org": "근로복지공단",
+      "deadline": "2026-04-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49041625?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=10&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": true
+    },
+    {
       "id": "jobkorea_cdd7c80577",
       "category": "채용",
       "subcategory": "인턴",
       "title": "[대만인] 유튜브 금융 콘텐츠 기획PD (인턴,계약직)",
       "org": "어스얼라이언스㈜",
       "deadline": "2026-04-30",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48781792?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=10&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48781792?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=15&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -150,19 +114,7 @@
       "title": "각 부문별 경력직 채용 - ETF LP",
       "org": "㈜아이엠증권",
       "deadline": "2026-04-30",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49026745?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=15&sc=630",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "jobkorea_2acd9dc5e9",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "각 부문별 신입/경력직 채용",
-      "org": "㈜아이엠증권",
-      "deadline": "2026-04-30",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49026723?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=16&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49026745?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=20&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -174,7 +126,7 @@
       "title": "인카금융서비스(주) 영업 신입/경력/관리자 모집",
       "org": "인카금융서비스",
       "deadline": "2026-05-03",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48906329?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=14&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48906329?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=19&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -186,7 +138,7 @@
       "title": "그래비티벤처스 AC본부 채용 전환형 인턴 모집",
       "org": "㈜그래비티벤처스",
       "deadline": "2026-05-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48940424?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=8&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48940424?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=9&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -198,7 +150,7 @@
       "title": "[DB증권] 본사 업무직 인턴십(체험형 인턴) 모집",
       "org": "디비증권㈜",
       "deadline": "2026-05-11",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49035348?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=13&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49035348?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=18&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -210,7 +162,7 @@
       "title": "참저축은행 여신업무 직원 채용",
       "org": "㈜참저축은행",
       "deadline": "2026-05-13",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49029830?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=12&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49029830?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=17&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -222,7 +174,7 @@
       "title": "[인턴/업무팀] 적하보험 증권 발급 사무직 채용",
       "org": "㈜노피곰",
       "deadline": "2026-05-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49004815?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=7&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49004815?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=6&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -240,49 +192,25 @@
       "is_new": false
     },
     {
-      "id": "jobkorea_9b86ad51b6",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "(광주 전지점)삼성생명(주) GFC 사업부 및 SFP 지역단 금융영업 특별위촉직 모집",
-      "org": "삼성생명㈜",
-      "deadline": "2026-05-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49023976?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=551",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": true
-    },
-    {
       "id": "jobkorea_790f35a05f",
       "category": "채용",
       "subcategory": "인턴",
       "title": "(대구 전지점)삼성생명(주) GFC 사업부 및 SFP 지역단 금융영업 특별위촉직 모집",
       "org": "삼성생명㈜",
       "deadline": "2026-05-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49023952?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=552",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49023952?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
-      "id": "jobkorea_70b05d96f8",
+      "id": "jobkorea_25952ca319",
       "category": "채용",
       "subcategory": "인턴",
-      "title": "(부산 전지점)삼성생명(주) GFC 사업부 및 SFP 지역단 금융영업 위촉직 채용",
+      "title": "(서울 중구)삼성생명(주) GFC 사업부 및 SFP 지역단 금융영업 위촉직 채용",
       "org": "삼성생명㈜",
       "deadline": "2026-05-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49023858?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=3&sc=552",
-      "source": "잡코리아",
-      "region": "부산",
-      "is_new": true
-    },
-    {
-      "id": "jobkorea_5071a3cb06",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "[서울 강남구]삼성생명(주) GFC 사업부 및 SFP 지역단 금융영업 위촉직 모집",
-      "org": "삼성생명㈜",
-      "deadline": "2026-05-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49023802?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=551",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49024097?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=552",
       "source": "잡코리아",
       "region": "전국",
       "is_new": true
@@ -295,18 +223,6 @@
       "org": "굿리치㈜",
       "deadline": "2026-05-21",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49026547?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=552",
-      "source": "잡코리아",
-      "region": "전국",
-      "is_new": true
-    },
-    {
-      "id": "jobkorea_f5dea57213",
-      "category": "채용",
-      "subcategory": "인턴",
-      "title": "기업투자본부 인턴 채용",
-      "org": "유진자산운용㈜",
-      "deadline": "2026-05-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49037170?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=18&sc=630",
       "source": "잡코리아",
       "region": "전국",
       "is_new": false
@@ -330,10 +246,10 @@
       "title": "신한라이프 보험 영업 / 육성 리더 포지션 채용(경력무관)",
       "org": "신한라이프생명보험㈜",
       "deadline": "2026-06-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48948093?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48948093?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=2&sc=551",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_6b94b6e098",
@@ -342,10 +258,10 @@
       "title": "워라밸이 높은 자산관리사를 채용합니다.",
       "org": "아인즈랩",
       "deadline": "2026-06-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48993605?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=4&sc=552",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48993605?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=5&sc=552",
       "source": "잡코리아",
       "region": "전국",
-      "is_new": true
+      "is_new": false
     },
     {
       "id": "jobkorea_29c7ac48ac",
@@ -354,47 +270,22 @@
       "title": "Business Operation (Intern)",
       "org": "㈜센트비(SENTBE)",
       "deadline": "2026-06-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49041852?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=4&sc=630",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49041852?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=8&sc=630",
+      "source": "잡코리아",
+      "region": "전국",
+      "is_new": false
+    },
+    {
+      "id": "jobkorea_13a39d9065",
+      "category": "채용",
+      "subcategory": "인턴",
+      "title": "[청개구리투자클럽] 주식운용 전문가(애널리스트/트레이더) 채용",
+      "org": "㈜에프에스씨(FSC)",
+      "deadline": "2026-06-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49052408?Oem_Code=C1&logpath=1&stext=%EA%B8%88%EC%9C%B5+%EC%9D%B8%ED%84%B4&listno=1&sc=551",
       "source": "잡코리아",
       "region": "전국",
       "is_new": true
-    },
-    {
-      "id": "youth_0e5621c6b8",
-      "category": "지원금",
-      "subcategory": "주거지원",
-      "title": "전세보증금 반환보증 보증료 지원",
-      "org": "국토교통부",
-      "deadline": "2026-07-05",
-      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260410005400212668",
-      "source": "온통청년",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "youth_3780ccb1aa",
-      "category": "지원금",
-      "subcategory": "취업지원",
-      "title": "전북특별자치도 일자리센터 운영",
-      "org": "전북특별자치도 기업유치지원실 일자리민생경제과",
-      "deadline": "2026-12-31",
-      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260319005400212219",
-      "source": "온통청년",
-      "region": "전국",
-      "is_new": false
-    },
-    {
-      "id": "youth_2b75f49129",
-      "category": "지원금",
-      "subcategory": "취업지원",
-      "title": "전북형 청년취업 지원",
-      "org": "전북특별자치도",
-      "deadline": "2026-12-31",
-      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260331005400212354",
-      "source": "온통청년",
-      "region": "전국",
-      "amount": "월 70만원",
-      "is_new": false
     },
     {
       "id": "youth_2574ab844b",
@@ -481,6 +372,42 @@
       "source": "온통청년",
       "region": "전국",
       "is_new": false
+    },
+    {
+      "id": "youth_f6ae922c67",
+      "category": "지원금",
+      "subcategory": "취업지원",
+      "title": "진주시 채용예정자과정",
+      "org": "경상남도 진주시 인구청년정책관",
+      "deadline": "2026-12-31",
+      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20251124005400211936",
+      "source": "온통청년",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "youth_5b2c1dd880",
+      "category": "지원금",
+      "subcategory": "취업지원",
+      "title": "진주시 청년 면접정장 대여사업",
+      "org": "경상남도 진주시 인구청년정책관",
+      "deadline": "2026-12-31",
+      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20251127005400211944",
+      "source": "온통청년",
+      "region": "전국",
+      "is_new": true
+    },
+    {
+      "id": "youth_4006db5fc0",
+      "category": "지원금",
+      "subcategory": "취업지원",
+      "title": "진주시 청년 자격증 응시료 지원",
+      "org": "경상남도 진주시 인구청년정책관",
+      "deadline": "2026-12-31",
+      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20251219005400212033",
+      "source": "온통청년",
+      "region": "전국",
+      "is_new": true
     },
     {
       "id": "youth_4401a5480f",
@@ -810,6 +737,18 @@
       "source": "온통청년",
       "region": "전국",
       "is_new": false
+    },
+    {
+      "id": "youth_bc33160195",
+      "category": "지원금",
+      "subcategory": "지원사업",
+      "title": "진주시 사회초년생 운전면허 취득비용 지원사업",
+      "org": "경상남도 진주시 인구청년정책관",
+      "deadline": "2027-12-31",
+      "url": "https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch/ythPlcyDetail/20260424005400212874",
+      "source": "온통청년",
+      "region": "전국",
+      "is_new": true
     },
     {
       "id": "youth_c3e9c4a960",
